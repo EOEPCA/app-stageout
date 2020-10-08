@@ -1,0 +1,12 @@
+name: env_stageout
+channels:
+  - terradue
+  - conda-forge
+dependencies:
+  - pystac
+  - python=3.7
+  - click
+  - requests
+  - pip
+  - pip:
+      - pyocclient
